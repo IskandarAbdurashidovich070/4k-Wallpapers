@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/defaultFragment2">
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.example.a4kwallpapers.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/defaultFragment2"
+        android:name="com.example.a4kwallpapers.DefaultFragment"
+        android:label="fragment_default"
+        tools:layout="@layout/fragment_default" />
+    <fragment
+        android:id="@+id/setImageFragment"
+        android:name="com.example.a4kwallpapers.SetImageFragment"
+        android:label="fragment_set_image"
+        tools:layout="@layout/fragment_set_image" />
+</navigation>
